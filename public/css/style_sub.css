@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 109vh;
+    
+  
+}
+.icon{
+    width:130px;
+    float:left;
+    height:70px;
+
+}
+
+.logo{
+    color:#ff33ee;
+    font-size:35px;
+    font-family:italic;
+    padding-left:25px;
+    float:left;
+    padding-top:10px;
+}
+.logo img{
+    width:100px;
+    height:90px;
+    display:block;
+    margin:auto;
+}
+.hed{
+    color:#ff33ee;
+}
+
+.navbar{
+    width: 1500px;
+    height: 75px;
+    margin: auto;
+    
+
+}
+
+.men{
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 25px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000f44;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+
+
+
+ul li a:hover{
+    color: #ff9100;
+}
+.menu{
+   
+    position: absolute;
+    bottom:10px;
+    top: 100px;
+    left: 1070px;
+    
+    padding: 10px;
+    
+
+}
+
+.btn{
+    width: 240px;
+    height: 60px;
+    background: linear-gradient(to top,rgba(174, 99, 255, 0.5)50%,rgba(169, 99, 255, 0.5)50%);;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-style: italic ;
+    
+}
+
+.btn:hover{
+    background: #ff33ee;
+    color: #5500ff;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.head{
+    font-size: 30px;
+    color:#d1370d;
+}
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #000000;
+    postion: relative;
+}
+
+.content .par{
+    padding-left: 30px;
+    padding-bottom: 25px;
+    padding-top: 210px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size:20px;
+}
+
+li .fa-brands{
+    color:rgb(106, 56, 222);
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width:700px){
+
+    .main{
+        width: 400%;
+        background-position: center;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        height: 400vh;
+        
+      
+    }
+
+    .content .par{
+        
+        font-family: 'Dancing Script', cursive;
+        letter-spacing: 1.2px;
+        line-height: 90px;
+       
+    }
+
+    .menu{
+   
+        
+        
+        top: 1200px;
+        left: 370px;
+        
+    }
+
+    .head{
+        font-size: 70px;
+       
+    }
+
+    .btn{
+        width: 540px;
+        height: 100px;
+        
+        font-size: 40px;
+        
+        
+    }
+
+    .content .par{
+        font-size: 40px;
+    }
+
+    ul li{
+        font-size: 40px;
+    }
+    li .fa-brands{
+        
+        font-size: 70px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
